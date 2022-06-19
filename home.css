@@ -2,6 +2,9 @@ body{
    /* font-family: 'Montserrat', sans-serif; */
    font-size: 18px;
 }
+.nav_el a{
+   text-decoration: none;
+}
 .nav_list{
     text-align: right;
     display:inline;
