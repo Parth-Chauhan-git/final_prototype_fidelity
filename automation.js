@@ -24,7 +24,7 @@ async function goandupload(){
         'home-page-hero.jpg', 
         'investment-research-homepage.jpg', 
         'tech-homepage.jpg']);
-    await tab.waitForTimeout(10000);
+    await tab.waitForTimeout(15000);
 
     var fs = require('fs');
 
@@ -60,7 +60,7 @@ deleteFiles(files, function(err) {
 });
 
 await tab.click( ".download");
-await tab.waitForTimeout(10000);
+await tab.waitForTimeout(15000);
 
 
 
